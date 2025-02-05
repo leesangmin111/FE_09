@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
                 display.value = '';
             }else if (this.id === 'equals') {
- try {
+                try {
         display.value = eval(display.value);
     } catch (e) {
         display.value = 'Error'; } 
